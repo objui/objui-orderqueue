@@ -1,0 +1,20 @@
+{
+	"name" : "objui/orderqueue",
+	"description" : "redis queue order",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "objui",
+			"email" : "objui@qq.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	"require" : {
+		"php" : ">=7.0",
+		"predis/predis": "v1.1.1"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"OBJUI\\" : "src/"
+		}
+	}
+}
